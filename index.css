@@ -1,0 +1,23 @@
+body{
+    background-color: red;
+}
+#containerlabel{
+    display: block;
+    text-align:center;
+    font-size: 10em;
+    font-style:italic
+}
+#container{
+    text-align: center;
+    padding: auto;
+    size: 10em;
+}
+.btn{
+  color: rgb(10, 15, 6);
+  background-color: rgb(84, 199, 134);
+  border-radius: 30px;
+  transition: 0.2s;
+}
+.btn:hover{
+    background-color: blue;
+}
