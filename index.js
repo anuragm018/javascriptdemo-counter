@@ -1,18 +1,15 @@
-const inbtn = document.getElementById("inbtn");
-const rebtn = document.getElementById("rebtn");
-const debtn = document.getElementById("debtn");
-const containerlabel = document.getElementById("containerlabel");
-let count = 0;
+const btn1 =document.getElementById("btn1");
+const label1 = document.getElementById("label1");
+const max= 20;
+const min =2;
+let rannum;
+btn1.onclick=function(){
+rannum=Math.floor(Math.random()*max)+min;
+ label1.textContent=rannum;
 
-inbtn.onclick = function () {
-  count++;
-  containerlabel.textContent = count;
 }
-debtn.onclick = function () {
-  count--;
-  containerlabel.textContent = count;
-}
-rebtn.onclick = function () {
-  count = 0;
-  containerlabel.textContent = count;
-}
+
+
+
+    
+ 
